@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+:root {
+    --font-color-gray: #4E5459;
+    --font-color-white: #FFFFFF;
+    --font-color-gray: #E2E1E1;
+    --font-color-dark-blue: #13234E;
+    --bg-color-gray: #697784;
+    --bg-color-dark-gray: #323131;
+    --font-style: 'Rajdhani', sans-serif, Arial, Helvetica;
+}
+
+body {
+    font-family: var(--font-style);
+}
