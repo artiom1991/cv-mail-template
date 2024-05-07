@@ -1,16 +1,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
+table, 
+th, 
+tr, 
+td,
+thead, 
+tbody, 
+tfoot {
+    margin: 0;
+    Margin:0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    outline: 0;
+}
 
-:root {
-    --font-color-gray: #4E5459;
-    --font-color-white: #FFFFFF;
-    --font-color-gray: #E2E1E1;
-    --font-color-dark-blue: #13234E;
-    --bg-color-gray: #697784;
-    --bg-color-dark-gray: #323131;
-    --font-style: 'Rajdhani', sans-serif, Arial, Helvetica;
+p,
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    Margin:0;
+}
+
+table {
+    mso-cellspacing: 0;
+    mso-padding-alt: 0;
+    border-spacing: 0;
 }
 
 body {
-    font-family: var(--font-style);
+    font-family: 'Rajdhani', sans-serif, Arial, Helvetica;
+    background-color: #969696;
+    width: 100%;
+    padding: 0;
+    Margin:0;
+    margin:0;
+    font-size: 20px;
+}
+
+#mail-main-window {
+    width: 100%;
+    max-width: 600px;
+    background-color: #F5F5F5;
+}
+
+.mail-main-block {}
+
+.mail-main-block-data {
+    padding: 15px 5px 5px 5px;
+}
+
+.hero-section {
+    background-color: #FEFEFE;
+    border-radius: 20px;
+}
+
+
+.hero-section-header {}
+
+.hero-section-element {}
+
+.hero-section-header-text {
+    padding: 30px 0 0 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #4E5459;
+    text-align: center;
+}
+
+.hero-section-image {}
+
+.hero-section-img-container {}
+
+
+.main-container { 
+    background-color: #697884;
+}
+
+.main-container-element {
+
+    padding: 5px 0 0 0;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.main-section {
+    width: 100%;
+    max-width: 600px;
+}
+
+.main-section-hello-message {}
+
+.hello-message-block {}
+
+.hello-message-container {
+    width: 570px;
+    padding: 35px 25px 35px 25px;
+    background-color: #E2E1E1;
+    border-radius: 20px;
+    border: 3px solid #4E5459;
+    box-shadow: 4px 4px 0 #4E5459;
+}
+
+.hello-message-element {}
+
+.hello-message-element-wrapper {}
+
+.hello-message-header {}
+
+.hello-message-text {
+    padding: 10px 0 0 0;
+    text-align: justify;
+    text-indent: 25px;
 }
