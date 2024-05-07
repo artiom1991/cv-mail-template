@@ -42,6 +42,7 @@ body {
     Margin:0;
     margin:0;
     font-size: 20px;
+    color: #ffffff;
 }
 
 #mail-main-window {
@@ -84,8 +85,7 @@ body {
 }
 
 .main-container-element {
-
-    padding: 5px 0 0 0;
+    padding: 5px 0 100px 0;
     border-radius: 20px 20px 0 0 ;
 }
 
@@ -105,16 +105,176 @@ body {
     border-radius: 20px;
     border: 3px solid #4E5459;
     box-shadow: 4px 4px 0 #4E5459;
+    color: #4E5459;
 }
 
 .hello-message-element {}
-
 .hello-message-element-wrapper {}
-
 .hello-message-header {}
 
 .hello-message-text {
     padding: 10px 0 0 0;
     text-align: justify;
     text-indent: 25px;
+}
+
+
+/* About section */
+
+.about-section {}
+.about-section-box {}
+.about-section-container {
+    width: 100%;
+    max-width: 480px;
+}
+.about-section-header {}
+.about-section-header-container {}
+.about-section-header-text {
+    padding: 30px 0 25px 0;
+}
+.about-content-box {}
+.about-content-wrapper {}
+.about-content-container-inner {
+    width: 100%;
+    max-width: 450px;
+}
+.about-element {}
+.about-element-box {
+    padding: 0 0 10px 0;
+}
+.about-element-wrapper { 
+    width: 100%;
+    max-width: 450px;
+}
+.about-element-header-box {}
+.about-element-header {}
+.about-header-container {
+    width: 100%;
+    max-width: 450px;
+}
+.about-header-container-inner {}
+.about-header-image-box {
+    padding: 0 5px 0 0;
+    width: 26px;
+}
+.about-header-image {
+    width: 26px;
+}
+.about-header-text-box {
+    width: 400px;
+}
+.about-header-text {
+    font-size: 24px;
+}
+.about-element-text-box {
+}
+.about-element-text {}
+.about-element-description {
+    padding: 5px 0 0 30px;
+    width: 390px;
+    text-align: justify;
+}
+
+/* Skill section */
+
+
+.skills-section {}
+.skill-section-container {}
+.skill-section-container-wrapper {
+    width: 100%;
+    max-width: 480px;
+}
+.skill-section-header-box {
+}
+.skill-section-header {
+    padding: 50px 0 30px 0;
+}
+.skill-header {
+    font-size: 40px;
+}
+.skill-section-list {}
+.skill-section-list-container {}
+.skill-section-list-wrapper {
+    width: 100%;
+    max-width: 320px;
+}
+.skill-section-element {}
+.skill-section-element-box {}
+.skill-section-element-wrapper {
+    width: 100%;
+    max-width: 320px;
+}
+.skill-element-container {}
+.skill-element-image-box {}
+.skill-element-image {}
+.skill-element-container {}
+.skill-element-text-box {
+    padding: 0 0 30px 0;
+}
+.skill-element-text {
+    font-size: medium;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+/* General skills section */
+
+.general-skills-section {}
+.general-skills-section-box {}
+.general-skills-wrapper {
+    width: 100%;
+    max-width: 480px;
+}
+.general-skill-section-header-box {}
+.general-skill-section-header {
+    padding: 20px 0 20px 0;
+}
+.general-skill-header {
+    font-size: 40px;
+}
+.general-skills-text-container {}
+.general-skills-text-box {}
+.general-skills-text-wrapper {
+    width: 100%;
+    max-width: 470px;
+    padding: 0 0 0 30px;
+}
+.general-text-container {}
+.general-text-box {}
+.general-skill-text {
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+/* Footer section */
+
+.footer-section {
+
+}
+.footer-section-box {
+    background-color: #323232;
+    border-radius: 0 0 20px 20px;
+}
+.footer-wrapper {}
+.footer-arrow-container {}
+.arrow-image-box {}
+.arrow-image {}
+.footer-contacts-container {}
+.footer-contacts-box {
+    padding: 15px 75px 45px 75px;
+}
+.footer-contacts-wrapper {}
+.contacts-element {}
+.contacts-box {}
+.contacts-logo {
+    padding: 5px 25px 5px 0;
+}
+.contact-link-box {}
+.contact-link {
+    text-decoration: none;
+    color: #E2E1E1;
+    font-weight: 300;
+    font-size: 24px;
 }
